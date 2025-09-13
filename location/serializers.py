@@ -1,4 +1,4 @@
-from .models import Route, Waypoint, UserRoute
+from .models import Route, Waypoint, UserRoute, Event
 from rest_framework import serializers
 
 
@@ -16,6 +16,13 @@ class RouteSerializer(serializers.ModelSerializer):
         model = Route
         fields = ["id", "name", "type", "icon", "color", "reward", "waypoints"]
         read_only_fields = ["id", "waypoints"]
+
+
+class EventSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Event
+        fields = ["id", "name", "description", "date", "location"]
+        read_only_fields = ["id"]
 
 
 class UserRouteSerializer(serializers.ModelSerializer):

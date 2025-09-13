@@ -28,6 +28,16 @@ class Waypoint(models.Model):
         return f"Waypoint {self.order} for {self.route.name}"
 
 
+class Event(models.Model):
+    name = models.CharField(max_length=100)
+    description = models.TextField()
+    date = models.DateTimeField()
+    location = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.name
+
+
 class UserRoute(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     route = models.ForeignKey(Route, on_delete=models.CASCADE)

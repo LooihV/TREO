@@ -12,7 +12,7 @@ class UserSerializer(serializers.ModelSerializer):
 class ProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = Profile
-        fields = ["id", "user", "photo", "level", "experience"]
+        fields = ["id", "user", "photo", "level", "experience", "bio"]
         read_only_fields = ["id", "user"]
 
 
@@ -83,3 +83,12 @@ class RegisterSerializer(serializers.ModelSerializer):
         )
         Profile.objects.create(user=user)
         return user
+
+
+class PublicProfileSerializer(serializers.ModelSerializer):
+    user = serializers.CharField(source="user.username", read_only=True)
+
+    class Meta:
+        model = Profile
+        fields = ["user", "photo", "level", "experience", "bio"]
+        read_only_fields = ["user"]

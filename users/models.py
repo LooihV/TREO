@@ -6,7 +6,6 @@ from django.contrib.auth.models import (
 )
 
 
-# Create your models here.
 class UserBase(models.Model):
     username = models.CharField(max_length=150, unique=True)
     email = models.EmailField(unique=True)
@@ -62,6 +61,7 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     photo = models.CharField(max_length=255, blank=True, null=True)
     level = models.IntegerField(default=1)
+    bio = models.TextField(blank=True, null=True)
     experience = models.IntegerField(default=0)
 
     def add_experience(self, points):
