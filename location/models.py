@@ -32,6 +32,7 @@ class Waypoint(models.Model):
 
 class Event(models.Model):
     name = models.CharField(max_length=100)
+    image = models.CharField(max_length=255, blank=True, null=True)
     description = models.TextField()
     date = models.DateTimeField()
     location = models.CharField(max_length=255)
