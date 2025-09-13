@@ -63,7 +63,11 @@ class PublicProfileViewSet(viewsets.ReadOnlyModelViewSet):
     lookup_field = "user__username"
 
     def get_queryset(self):
-        return Profile.objects.all()
+        queryset = Profile.objects.all()
+        user = self.request.user
+        if user.is_authenticated:
+            queryset = queryset.exclude(user=user)
+        return queryset
 
 
 class RegisterView(generics.CreateAPIView):
