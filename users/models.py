@@ -53,6 +53,9 @@ class User(AbstractBaseUser, PermissionsMixin, UserBase):
     USERNAME_FIELD = "username"
     REQUIRED_FIELDS = ["email"]
 
+    def get_full_name(self):
+        return f"{self.first_name} {self.last_name}"
+
     def __str__(self):
         return self.username
 

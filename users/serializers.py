@@ -87,8 +87,9 @@ class RegisterSerializer(serializers.ModelSerializer):
 
 class PublicProfileSerializer(serializers.ModelSerializer):
     user = serializers.CharField(source="user.username", read_only=True)
+    name = serializers.CharField(source="user.get_full_name", read_only=True)
 
     class Meta:
         model = Profile
-        fields = ["user", "photo", "level", "experience", "bio"]
-        read_only_fields = ["user"]
+        fields = ["user", "name", "photo", "level", "experience", "bio"]
+        read_only_fields = ["user", "name"]
