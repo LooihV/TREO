@@ -21,7 +21,7 @@ class RouteSerializer(serializers.ModelSerializer):
 class EventSerializer(serializers.ModelSerializer):
     class Meta:
         model = Event
-        fields = ["id", "name", "description", "date", "location"]
+        fields = ["id", "name", "description", "image", "date", "location"]
         read_only_fields = ["id"]
 
 
