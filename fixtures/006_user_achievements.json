@@ -1,0 +1,56 @@
+[
+  {
+    "model": "users.userachievement",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "achievement": 4,
+      "date_earned": "2025-10-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "users.userachievement",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "achievement": 1,
+      "date_earned": "2025-10-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "users.userachievement",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "achievement": 4,
+      "date_earned": "2025-10-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "users.userachievement",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "achievement": 4,
+      "date_earned": "2025-10-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "users.userachievement",
+    "pk": 5,
+    "fields": {
+      "user": 4,
+      "achievement": 2,
+      "date_earned": "2025-10-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "users.userachievement",
+    "pk": 6,
+    "fields": {
+      "user": 4,
+      "achievement": 1,
+      "date_earned": "2025-10-01T12:00:00Z"
+    }
+  }
+]

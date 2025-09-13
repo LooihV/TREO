@@ -1,0 +1,22 @@
+[
+  {
+    "model": "location.event",
+    "pk": 1,
+    "fields": {
+      "name": "Festech",
+      "location": "Gobernacion del Tolima, Ibagué",
+      "date": "2024-08-15T14:00:00.000Z",
+      "image": "https://tolima.gov.co/images/noticias/2024/Noviembre/1600_personas_llegaron_al_festech_2024_tolima.jpg"
+    }
+  },
+  {
+    "model": "location.event",
+    "pk": 2,
+    "fields": {
+      "name": "PijaoTech",
+      "location": "Aqua Centro Comercial, Ibagué",
+      "date": "2024-09-20T10:30:00.000Z",
+      "image": "https://elirreverenteibague.com/public/img/noticias/2531836/interna.jpg"
+    }
+  }
+]

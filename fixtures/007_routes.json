@@ -1,0 +1,54 @@
+[
+  {
+    "model": "location.route",
+    "pk": 1,
+    "fields": {
+      "name": "Parque de la Música",
+      "type": "park",
+      "icon": "leaf.fill",
+      "color": "#aac11f",
+      "reward": 10,
+      "latitude": 4.4335,
+      "longitude": -75.2372
+    }
+  },
+  {
+    "model": "location.route",
+    "pk": 2,
+    "fields": {
+      "name": "Restaurante El Solar",
+      "type": "restaurant",
+      "icon": "fork.knife",
+      "color": "#ff6d00",
+      "reward": 20,
+      "latitude": 4.4414,
+      "longitude": -75.2415
+    }
+  },
+  {
+    "model": "location.route",
+    "pk": 3,
+    "fields": {
+      "name": "Sendero Ecológico Combeima",
+      "type": "walk",
+      "icon": "figure.walk",
+      "color": "#00b7ff",
+      "reward": 15,
+      "latitude": 4.4069,
+      "longitude": -75.2811
+    }
+  },
+  {
+    "model": "location.route",
+    "pk": 4,
+    "fields": {
+      "name": "Ibagué es Cultura",
+      "type": "museum",
+      "icon": "museum",
+      "color": "#3c20e2",
+      "reward": 5,
+      "latitude": 4.4484,
+      "longitude": -75.2405
+    }
+  }
+]

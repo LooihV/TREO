@@ -1,0 +1,101 @@
+[
+  {
+    "model": "location.waypoint",
+    "pk": 1,
+    "fields": {
+      "name": "Museo Panóptico de Ibagué",
+      "route": 4,
+      "latitude": 4.4489,
+      "longitude": -75.2407,
+      "order": 1
+    }
+  },
+  {
+    "model": "location.waypoint",
+    "pk": 2,
+    "fields": {
+      "name": "Concha Acústica Garzón y Collazos",
+      "route": 4,
+      "latitude": 4.447,
+      "longitude": -75.2418,
+      "order": 2
+    }
+  },
+  {
+    "model": "location.waypoint",
+    "pk": 3,
+    "fields": {
+      "name": "Museo del Arte del Tolima",
+      "route": 4,
+      "latitude": 4.45,
+      "longitude": -75.2433,
+      "order": 3
+    }
+  },
+  {
+    "model": "location.waypoint",
+    "pk": 4,
+    "fields": {
+      "name": "Mirador del Río",
+      "route": 3,
+      "latitude": 4.408,
+      "longitude": -75.28,
+      "order": 1
+    }
+  },
+  {
+    "model": "location.waypoint",
+    "pk": 5,
+    "fields": {
+      "name": "Cascada La Escondida",
+      "route": 3,
+      "latitude": 4.4055,
+      "longitude": -75.2825,
+      "order": 2
+    }
+  },
+  {
+    "model": "location.waypoint",
+    "pk": 6,
+    "fields": {
+      "name": "Parque de la Música",
+      "route": 1,
+      "latitude": 4.4335,
+      "longitude": -75.2372,
+      "order": 1
+    }
+  },
+  {
+    "model": "location.waypoint",
+    "pk": 7,
+    "fields": {
+      "name": "Plaza de Bolívar",
+      "route": 1,
+      "latitude": 4.4445,
+      "longitude": -75.2434,
+      "order": 2
+    }
+  },
+  {
+    "model": "location.waypoint",
+    "pk": 8,
+    "fields": {
+      "name": "Arquidiócesis de Ibagué",
+      "route": 1,
+      "latitude": 4.4443,
+      "longitude": -75.2425,
+      "order": 3
+    }
+  },
+  {
+    "model": "location.waypoint",
+    "pk": 9,
+    "fields": {
+      "name": "La Tercera",
+      "route": 1,
+      "latitude": 4.4447,
+      "longitude": -75.2422,
+      "order": 4
+    }
+  }
+]

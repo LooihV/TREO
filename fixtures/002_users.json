@@ -1,0 +1,62 @@
+[
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$qk0BNAgrYN1gvPvHw8oyHB$KT7t8i4/CMKhxQmHll+WG8Ol/w4pwnuVzq+1poeJaiE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "juanperez",
+      "email": "juan.perez@example.com",
+      "first_name": "Juan",
+      "last_name": "Perez",
+      "phone": "3101234567",
+      "address": "Carrera 10 # 20-30",
+      "is_active": true,
+      "is_staff": false,
+      "date_joined": "2025-06-10T10:15:20.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$qk0BNAgrYN1gvPvHw8oyHB$KT7t8i4/CMKhxQmHll+WG8Ol/w4pwnuVzq+1poeJaiE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "mariarodriguez",
+      "email": "maria.rodriguez@example.com",
+      "first_name": "Maria",
+      "last_name": "Rodriguez",
+      "phone": "3209876543",
+      "address": "Avenida 5 # 15-50",
+      "is_active": true,
+      "is_staff": false,
+      "date_joined": "2025-07-22T14:30:00.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$qk0BNAgrYN1gvPvHw8oyHB$KT7t8i4/CMKhxQmHll+WG8Ol/w4pwnuVzq+1poeJaiE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "carlosgomez",
+      "email": "carlos.gomez@example.com",
+      "first_name": "Carlos",
+      "last_name": "Gomez",
+      "phone": "3005556677",
+      "address": "Transversal 8 # 40-12",
+      "is_active": true,
+      "is_staff": false,
+      "date_joined": "2025-08-01T09:45:10.000Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

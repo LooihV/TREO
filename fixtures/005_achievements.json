@@ -1,0 +1,38 @@
+[
+  {
+    "model": "users.achievement",
+    "pk": 1,
+    "fields": {
+      "title": "Explorador",
+      "description": "25 rutas completadas",
+      "icon": "https://www.svgrepo.com/show/262732/badge-reward.svg"
+    }
+  },
+  {
+    "model": "users.achievement",
+    "pk": 2,
+    "fields": {
+      "title": "Conquistador",
+      "description": "50 rutas completadas",
+      "icon": "https://www.svgrepo.com/show/263501/badge-reward.svg"
+    }
+  },
+  {
+    "model": "users.achievement",
+    "pk": 3,
+    "fields": {
+      "title": "Aventurero",
+      "description": "Completa tu primer ruta",
+      "icon": "https://www.svgrepo.com/show/236438/badge.svg"
+    }
+  },
+  {
+    "model": "users.achievement",
+    "pk": 4,
+    "fields": {
+      "title": "Iniciado",
+      "description": "Sacude el teléfono",
+      "icon": "https://www.svgrepo.com/show/51727/badge.svg"
+    }
+  }
+]

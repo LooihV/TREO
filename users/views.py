@@ -47,6 +47,9 @@ class ProfileViewSet(viewsets.ModelViewSet):
     def get_queryset(self):
         return Profile.objects.filter(user=self.request.user)
 
+    def perform_create(self, serializer):
+        serializer.save(user=self.request.user)
+
 
 class UserDetailViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = User.objects.all()

@@ -9,6 +9,8 @@ class Route(models.Model):
     icon = models.CharField(max_length=100, blank=True, null=True)
     color = models.CharField(max_length=7, blank=True, null=True)
     reward = models.IntegerField(blank=True, null=True)
+    latitude = models.FloatField()
+    longitude = models.FloatField()
 
     def __str__(self):
         return self.name

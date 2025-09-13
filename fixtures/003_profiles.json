@@ -1,0 +1,46 @@
+[
+  {
+    "model": "users.profile",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "photo": "https://cdn-icons-png.flaticon.com/512/2118/2118559.png",
+      "level": 1,
+      "bio": "Mi nombre es Luis, soy algo introvertido pero me divierto mucho en confianza :)",
+      "experience": 0
+    }
+  },
+  {
+    "model": "users.profile",
+    "pk": 2,
+    "fields": {
+      "user": 2,
+      "photo": "https://cdn-icons-png.flaticon.com/512/2118/2118556.png",
+      "level": 1,
+      "bio": "Soy Juan Perez, me gusta el deporte y conocer nuevas personas.",
+      "experience": 0
+    }
+  },
+  {
+    "model": "users.profile",
+    "pk": 3,
+    "fields": {
+      "user": 3,
+      "photo": "https://cdn-icons-png.flaticon.com/512/2118/2118508.png",
+      "level": 1,
+      "bio": "Hola, soy Maria Rodriguez. Amo la lectura y los animales.",
+      "experience": 0
+    }
+  },
+  {
+    "model": "users.profile",
+    "pk": 4,
+    "fields": {
+      "user": 4,
+      "photo": "https://cdn-icons-png.flaticon.com/512/2118/2118553.png",
+      "level": 1,
+      "bio": "Carlos Gomez aquí, apasionado por la tecnología y la música.",
+      "experience": 0
+    }
+  }
+]

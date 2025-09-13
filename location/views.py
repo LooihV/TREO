@@ -49,6 +49,22 @@ class UserRouteViewSet(viewsets.ModelViewSet):
             }
         )
 
+    @action(detail=True, methods=["post"])
+    def complete_route(self, request, pk=None):
+        route = self.get_object().route
+        user = request.user
+        profile = user.profile
+        if not UserRoute.objects.filter(
+            user=user, route=route, completed=True
+        ).exists():
+            profile.add_experience(route.reward or 0)
+            UserRoute.objects.filter(user=user, route=route).update(completed=True)
+            return Response({"status": "Route completed"})
+
+        return Response(
+            {"status": "Route already completed or user-route not found"}, status=400
+        )
+
 
 class EventViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Event.objects.all()
